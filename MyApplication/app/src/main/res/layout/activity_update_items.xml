@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateQuantity"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="78dp"
+            android:backgroundTint="#020202"
+            android:foreground="@drawable/border"
+            android:gravity="center"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/cancelUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateQuantity"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="229dp"
+            android:backgroundTint="#0C0B0B"
+            android:foreground="@drawable/border"
+            android:gravity="center"
+            android:text="Cancel" />
+
+        <EditText
+            android:id="@+id/updateQuantity"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateDescription"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="quantity"
+            android:textColor="#FBF9F9" />
+
+        <EditText
+            android:id="@+id/updateName"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="52dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textColor="#F4F1F1" />
+
+        <EditText
+            android:id="@+id/updateDescription"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="description"
+            android:textColor="#F4F4F4"
+            android:textColorHint="#EFEDED" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

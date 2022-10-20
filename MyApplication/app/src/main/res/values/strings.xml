@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="description">Description</string>
+    <string name="card">Card name</string>
+    <string name="type">Type</string>
+    <string name="number">No.</string>
+    <string name="firstCard">1.</string>
+    <string name="first_Name">Dragonator</string>
+    <string name="first_type">Flying</string>
+    <string name="first_des">a red dragon</string>
+</resources>
